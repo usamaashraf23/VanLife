@@ -7,7 +7,11 @@ function About() {
     <>
       <Navbar />
       <main>
-        <img className=" h-2/5 w-full" src="./src/assets/aboutUs.png" />
+        <img
+          className=" h-2/5 w-full"
+          src="./src/assets/aboutUs.png"
+          alt="van night picyure"
+        />
         <div className="px-10 py-14">
           <h3 className=" text-3xl font-bold py-3 ">
             Don’t squeeze in a sedan when you could relax in a van.
