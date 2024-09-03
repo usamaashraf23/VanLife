@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import AboutPic from "../assets/aboutUs.png";
 
 function About() {
   return (
@@ -9,7 +10,7 @@ function About() {
       <main>
         <img
           className=" h-2/5 w-full"
-          src="./src/assets/aboutUs.png"
+          src={`${AboutPic}`}
           alt="van night picture"
         />
         <div className="px-10 py-14">
